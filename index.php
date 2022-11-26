@@ -16,11 +16,35 @@ include 'Header/index.php';
      ?>
       <div class="main-panel">
         <div class="content-wrapper">
+
+          <div class ="row">
+            <div class = "col-lg-4">
+              <div class="card">
+                <div class = "card-header"></div>
+                <div class = "card-body"></div>
+                <div class = "card-footer"></div>
+              </div>
+            </div>
+            <div class = "col-lg-4">
+            <div class="card">
+                <div class = "card-header"></div>
+                <div class = "card-body"></div>
+                <div class = "card-footer"></div>
+              </div>
+            </div>
+            <div class = "col-lg-4">
+            <div class="card">
+                <div class = "card-header"></div>
+                <div class = "card-body"></div>
+                <div class = "card-footer"></div>
+              </div>
+            </div>
+          </div>
           <div class="row">
             <!-- <div class="col-lg-6 grid-margin stretch-card">-->
             <div class="col-lg-12 grid-margin2 stretch-card">
               <div class="card">
-                <div class = "card-header"></div>
+                <div class = "card-header">Riwayat Trip</div>
                 <div class="card-body">
                 <table id="table_id" class="display">
                     <thead>
