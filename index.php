@@ -20,27 +20,33 @@ include 'Header/index.php';
           <div class ="row">
             <div class = "col-lg-4">
               <div class="card">
-                <div class = "card-header"></div>
-                <div class = "card-body"></div>
-                <div class = "card-footer"></div>
+                <div class = "card-header"><h6><b>Total Driver</b></h6></div>
+                <div class = "card-body" style="margin-top:-15px ;margin-bottom:-15px;"><h3>6</h3></div>
+                <div class = "card-footer">
+                  <button class="btn btn-primary">Lihat Detail</button>
+                </div>
               </div>
             </div>
             <div class = "col-lg-4">
             <div class="card">
-                <div class = "card-header"></div>
-                <div class = "card-body"></div>
-                <div class = "card-footer"></div>
+                <div class = "card-header"><h6><b>Total Trip</b></h6></div>
+                <div class = "card-body" style="margin-top:-15px ;margin-bottom:-15px;"><h3>6</h3></div>
+                <div class = "card-footer">
+                  <button class="btn btn-primary">Lihat Detail</button>
+                </div>
               </div>
             </div>
             <div class = "col-lg-4">
             <div class="card">
-                <div class = "card-header"></div>
-                <div class = "card-body"></div>
-                <div class = "card-footer"></div>
+                <div class = "card-header"><h6><b>Total Omset</b></h6></div>
+                <div class = "card-body" style="margin-top:-15px ;margin-bottom:-15px;"><h3>6</h3></div>
+                <div class = "card-footer">
+                  <button class="btn btn-primary">Lihat Detail</button>
+                </div>
               </div>
             </div>
           </div>
-          <div class="row">
+          <div class="row mt-2">
             <!-- <div class="col-lg-6 grid-margin stretch-card">-->
             <div class="col-lg-12 grid-margin2 stretch-card">
               <div class="card">
