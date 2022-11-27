@@ -17,11 +17,11 @@
               <ul class="nav flex-column sub-menu">
                 <li class="nav-item"> <a class="nav-link" href="/NebengAja/Pengaturan.php"> Peraturan</a></li>
                 <li class="nav-item"> <a class="nav-link" href="/NebengAja/pengguna.php"> Pengguna </a></li>
-                <li class="nav-item"> <a class="nav-link" href="/NebengAja/DataTipeKendaraan.php"> Data Tipe Kendaraan </a></li>
-                <li class="nav-item"> <a class="nav-link" href="/NebengAja/DataDaerah.php"> Data Daerah / Area </a></li>
-                <li class="nav-item"> <a class="nav-link" href="/NebengAja/DataRute.php"> Data rute </a></li>
-                <li class="nav-item"> <a class="nav-link" href="/NebengAja/DataTarifRute.php"> Data Tarif Rute </a></li>
-                <li class="nav-item"> <a class="nav-link" href="/NebengAja/DataTrip.php"> Data Trip </a></li>
+                <li class="nav-item"> <a class="nav-link" href="/NebengAja/DataTipeKendaraan.php">Tipe Kendaraan </a></li>
+                <li class="nav-item"> <a class="nav-link" href="/NebengAja/DataDaerah.php">Daerah / Area </a></li>
+                <li class="nav-item"> <a class="nav-link" href="/NebengAja/DataRute.php">rute </a></li>
+                <li class="nav-item"> <a class="nav-link" href="/NebengAja/DataTarifRute.php">Tarif Rute </a></li>
+                <li class="nav-item"> <a class="nav-link" href="/NebengAja/DataTrip.php">Trip </a></li>
               </ul>
             </div>
           </li>

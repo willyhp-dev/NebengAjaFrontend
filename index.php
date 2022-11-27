@@ -20,7 +20,7 @@ include 'Header/index.php';
           <div class ="row">
             <div class = "col-lg-4">
               <div class="card">
-                <div class = "card-header"><h6><b>Total Driver</b></h6></div>
+                <div class = "card-header bg-primary text-white"><h6><b>Total Driver</b></h6></div>
                 <div class = "card-body" style="margin-top:-15px ;margin-bottom:-15px;"><h3>6</h3></div>
                 <div class = "card-footer">
                   <button class="btn btn-primary">Lihat Detail</button>
@@ -29,19 +29,19 @@ include 'Header/index.php';
             </div>
             <div class = "col-lg-4">
             <div class="card">
-                <div class = "card-header"><h6><b>Total Trip</b></h6></div>
+                <div class = "card-header bg-danger text-white"><h6><b>Total Trip</b></h6></div>
                 <div class = "card-body" style="margin-top:-15px ;margin-bottom:-15px;"><h3>6</h3></div>
                 <div class = "card-footer">
-                  <button class="btn btn-primary">Lihat Detail</button>
+                  <button class="btn btn-danger">Lihat Detail</button>
                 </div>
               </div>
             </div>
             <div class = "col-lg-4">
             <div class="card">
-                <div class = "card-header"><h6><b>Total Omset</b></h6></div>
+                <div class = "card-header bg-warning text-white"><h6><b>Total Omset</b></h6></div>
                 <div class = "card-body" style="margin-top:-15px ;margin-bottom:-15px;"><h3>6</h3></div>
                 <div class = "card-footer">
-                  <button class="btn btn-primary">Lihat Detail</button>
+                  <button class="btn btn-warning">Lihat Detail</button>
                 </div>
               </div>
             </div>
@@ -50,7 +50,7 @@ include 'Header/index.php';
             <!-- <div class="col-lg-6 grid-margin stretch-card">-->
             <div class="col-lg-12 grid-margin2 stretch-card">
               <div class="card">
-                <div class = "card-header">Riwayat Trip</div>
+                <div class = "card-header bg-success text-white">Riwayat Trip</div>
                 <div class="card-body">
                 <table id="table_id" class="display">
                     <thead>

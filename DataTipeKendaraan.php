@@ -20,7 +20,45 @@ include 'Header/index.php';
             <!-- <div class="col-lg-6 grid-margin stretch-card">-->
             <div class="col-lg-12 grid-margin2 stretch-card">
               <div class="card">
-                <div class = "card-header"></div>
+                <div class = "card-header">
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                  Tambah Tipe Kendaraan
+                </button>
+
+
+                <div class="modal" id="myModal">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h4 class="modal-title">Data Tipe Kendaraan Form</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      </div>
+
+                      <!-- Modal body -->
+                      <div class="modal-body">
+                        <div class = "form-group">
+                          <label>Tipe/Model</label>
+                          <input type = "text" name = "tipe" class = "form-control" placeholder="Example : MPV">
+                        </div>
+
+                        <div class = "form-group">
+                          <label>Keterangan</label>
+                          <textarea class ="form-control" style="height:100px;" placeholder="Keterangan"></textarea>
+                        </div>
+                      </div>
+
+                      <!-- Modal footer -->
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                </div>
+              
                 <div class="card-body">
                 <table id="table_id" class="display">
                     <thead>
