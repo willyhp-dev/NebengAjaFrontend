@@ -100,7 +100,7 @@ include 'Header/index.php';
                 <table id="table_id" class="display">
                     <thead>
                         <tr>
-                            <th>No</th>
+                            <th width="5%">No</th>
                             <th>Nama Lengkap</th>
                             <th>Email</th>
                             <th>Status Akun</th>
@@ -109,7 +109,16 @@ include 'Header/index.php';
                         </tr>
                     </thead>
                     <tbody>
-                        
+                        <Tr>
+                          <td>No</td>
+                          <td>Nama Lengkap</td>
+                          <td>Email</td>
+                          <td>Status Akun</td>
+                          <td>Status Driver</td>
+                          <td>
+                          <a href ="/NebengAja/Editable/Pengguna.php" class = "btn btn-warning btn-sm">Edit</a>
+                          </td>
+                        </Tr>
                     </tbody>
                 </table>
                 </div>

@@ -72,7 +72,7 @@ include 'Header/index.php';
                 <table id="table_id" class="display">
                     <thead>
                         <tr>
-                            <th>No</th>
+                            <th width="5%">No</th>
                             <th>Rute</th>
                             <th>Tipe Kendaraan</th>
                             <th>Tarif Per Orang</th>
@@ -80,7 +80,15 @@ include 'Header/index.php';
                         </tr>
                     </thead>
                     <tbody>
-                        
+                        <tr>
+                            <td>No</td>
+                            <td>Rute</td>
+                            <td>Tipe Kendaraan</td>
+                            <td>Tarif Per Orang</td>
+                            <td>
+                              <a href="/NebengAja/Editable/DataTarifRute.php" class = "btn btn-warning btn-sm">Edit</a>
+                            </td>
+                        </tr>
                     </tbody>
                 </table>
                 </div>

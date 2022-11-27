@@ -107,7 +107,7 @@ include 'Header/index.php';
                 <table id="table_id" class="display">
                     <thead>
                         <tr>
-                            <th>No</th>
+                            <th width="5%">No</th>
                             <th>Tanggal</th>
                             <th>Driver</th>
                             <th>Tipe Kendaraan</th>
@@ -118,7 +118,18 @@ include 'Header/index.php';
                         </tr>
                     </thead>
                     <tbody>
-                       
+                      <tr>
+                        <td>No</td>
+                        <td>Tanggal</td>
+                        <td>Driver</td>
+                        <td>Tipe Kendaraan</td>
+                        <td>Jam Keberangkatan</td>
+                        <td>Kapasitas</td>
+                        <td>Status Trip</td>
+                        <td>
+                        <a href ="/NebengAja/Editable/DataTrip.php" class = "btn btn-warning btn-sm">Edit</a>
+                        </td>
+                      </tr>
                     </tbody>
                 </table>
                 </div>

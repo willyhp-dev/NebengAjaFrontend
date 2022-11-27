@@ -78,7 +78,7 @@ include 'Header/index.php';
                 <table id="table_id" class="display">
                     <thead>
                          <tr>
-                            <th>No</th>
+                            <th width="5%">No</th>
                             <th>Tipe</th>
                             <th>Nilainya</th>
                             <th>Nilai Tambahan</th>
@@ -87,7 +87,16 @@ include 'Header/index.php';
                         </tr>
                     </thead>
                     <tbody>
-                        
+                        <tr>
+                          <td>No</td>
+                          <td>Tipe</td>
+                          <td>Nilainya</td>
+                          <td>Nilai Tambahan</td>
+                          <td>Catatan</td>
+                          <td>
+                            <a href ="/NebengAja/Editable/Pengaturan.php" class = "btn btn-warning btn-sm">Edit</a>
+                          </td>
+                        </tr>
                     </tbody>
                 </table>
                 </div>

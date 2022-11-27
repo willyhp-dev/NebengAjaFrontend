@@ -63,14 +63,21 @@ include 'Header/index.php';
                 <table id="table_id" class="display">
                     <thead>
                         <tr>
-                            <th>No</th>
+                            <th width="5%">No</th>
                             <th>Tipe Kendaraan</th>
                             <th>Keterangan</th>
                             <th>Aksi</th>
                         </tr>
                     </thead>
                     <tbody>
-                       
+                       <tr>
+                        <td>No</td>
+                        <td>Tipe Kendaraan</td>
+                        <Td>keterangan</Td>
+                        <td>
+                         <a href ="/NebengAja/Editable/DataTipeKendaraan.php" class = "btn btn-warning btn-sm">Edit</a>
+                        </td>
+                      </tr>
                     </tbody>
                 </table>
                 </div>

@@ -64,14 +64,21 @@ include 'Header/index.php';
                 <table id="table_id" class="display">
                     <thead>
                         <tr>
-                            <th>No</th>
+                            <th width="5%">No</th>
                             <th>Nama Daerah</th>
                             <th>Keterangan</th>
                             <th>Aksi</th>
                         </tr>
                     </thead>
                     <tbody>
-                       
+                        <tr>
+                            <td>no</td>
+                            <td>Nama Daerah</td>
+                            <td>Keterangan</td>
+                            <td>
+                              <a href="/NebengAja/Editable/DataDaerah.php" class="btn btn-warning btn-sm">Edit</a>
+                            </td>
+                        </tr> 
                     </tbody>
                 </table>
                 </div>

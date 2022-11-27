@@ -64,14 +64,21 @@ include 'Header/index.php';
                 <table id="table_id" class="display">
                     <thead>
                         <tr>
-                            <th>No</th>
+                            <th width="5%">No</th>
                             <th>Daerah Asal</th>
                             <th>Daerah Tujuan</th>
                             <th>Aksi</th>
                         </tr>
                     </thead>
                     <tbody>
-                     
+                     <tr>
+                        <td>No</td>
+                        <td>Daerah Asal</td>
+                        <td>Daerah Tujuan</td>
+                        <td>
+                          <a href ="/NebengAja/Editable/DataRute.php" class = "btn btn-warning btn-sm">Edit</a>
+                        </td>
+                    </tr>
                     </tbody>
                 </table>
                 </div>
