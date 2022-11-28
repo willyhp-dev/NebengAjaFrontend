@@ -45,39 +45,19 @@ include 'Header/index.php';
                 </div>
               </div>
             </div>
-          </div>
-          <div class="row mt-2">
-            <!-- <div class="col-lg-6 grid-margin stretch-card">-->
-            <div class="col-lg-12 grid-margin2 stretch-card">
-              <div class="card">
-                <div class = "card-header bg-success text-white">Riwayat Trip</div>
-                <div class="card-body">
-                <table id="table_id" class="display">
-                    <thead>
-                        <tr>
-                            <th>Column 1</th>
-                            <th>Column 2</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Row 1 Data 1</td>
-                            <td>Row 1 Data 2</td>
-                        </tr>
-                        <tr>
-                            <td>Row 2 Data 1</td>
-                            <td>Row 2 Data 2</td>
-                        </tr>
-                    </tbody>
-                </table>
-                </div>
-                <div class = "card-footer"></div>
 
+            <div class = "col-lg-4 mt-3">
+            <div class="card">
+                <div class = "card-header bg-success text-white"><h6><b>Riwayat trip</b></h6></div>
+                <div class = "card-body" style="margin-top:-15px ;margin-bottom:-15px;"><h3>6</h3></div>
+                <div class = "card-footer">
+                  <button class="btn btn-success">Lihat Detail</button>
+                </div>
               </div>
             </div>
+          </div>
+       
         
-        </div>
-        <!-- content-wrapper ends -->
       </div>
       <!-- main-panel ends -->
     </div>

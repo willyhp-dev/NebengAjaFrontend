@@ -83,7 +83,7 @@ include 'Header/index.php';
                             <th>Nilainya</th>
                             <th>Nilai Tambahan</th>
                             <th>Catatan</th>
-                            <th>Aksi</th>
+                            <th width ="20%">Aksi</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -94,6 +94,7 @@ include 'Header/index.php';
                           <td>Nilai Tambahan</td>
                           <td>Catatan</td>
                           <td>
+                          <button class = "btn btn-danger btn-sm" onclick="contoh()">Delete</button>
                             <a href ="/NebengAja/Editable/Pengaturan.php" class = "btn btn-warning btn-sm">Edit</a>
                           </td>
                         </tr>
@@ -126,5 +127,25 @@ include 'Header/index.php';
 $(document).ready(function () {
     $('#table_id').DataTable();
 });
+
+function contoh(){
+            swal({
+        title: "Are you sure?",
+        text: "Once deleted, you will not be able to recover this imaginary file!",
+        icon: "warning",
+        buttons: true,
+        dangerMode: true,
+      })
+      .then((willDelete) => {
+        if (willDelete) {
+          swal("Poof! Your imaginary file has been deleted!", {
+            icon: "success",
+          });
+        } else {
+          swal("Your imaginary file is safe!");
+        }
+      });
+        
+    }
 </script>
 

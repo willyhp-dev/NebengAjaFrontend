@@ -24,6 +24,7 @@ include 'Header/index.php';
                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
                   Tambah Daerah
                 </button>
+                </div>
                 <div class="modal" id="myModal">
                   <div class="modal-dialog">
                     <div class="modal-content">
@@ -67,7 +68,7 @@ include 'Header/index.php';
                             <th width="5%">No</th>
                             <th>Nama Daerah</th>
                             <th>Keterangan</th>
-                            <th>Aksi</th>
+                            <th width = "20%">Aksi</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -76,6 +77,7 @@ include 'Header/index.php';
                             <td>Nama Daerah</td>
                             <td>Keterangan</td>
                             <td>
+                              <button class = "btn btn-danger btn-sm" onclick="contoh()">Delete</button>
                               <a href="/NebengAja/Editable/DataDaerah.php" class="btn btn-warning btn-sm">Edit</a>
                             </td>
                         </tr> 
@@ -84,7 +86,7 @@ include 'Header/index.php';
                 </div>
                 <div class = "card-footer"></div>
 
-              </div>
+             
             </div>
         
         </div>
@@ -108,5 +110,26 @@ include 'Header/index.php';
 $(document).ready(function () {
     $('#table_id').DataTable();
 });
+
+
+    function contoh(){
+            swal({
+        title: "Are you sure?",
+        text: "Once deleted, you will not be able to recover this imaginary file!",
+        icon: "warning",
+        buttons: true,
+        dangerMode: true,
+      })
+      .then((willDelete) => {
+        if (willDelete) {
+          swal("Poof! Your imaginary file has been deleted!", {
+            icon: "success",
+          });
+        } else {
+          swal("Your imaginary file is safe!");
+        }
+      });
+        
+    }
 </script>
 

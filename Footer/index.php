@@ -7,3 +7,6 @@
   <script src="regal/vendors/jquery-bar-rating/jquery.barrating.min.js"></script>
   <script src="regal/js/dashboard.js"></script>
   <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  
+  </script>
